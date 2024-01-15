@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const HeaderStyled = styled.header`
-  background-color: red;
   grid-area: title;
 
   display: grid;
