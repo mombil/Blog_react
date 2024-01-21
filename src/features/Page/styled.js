@@ -16,11 +16,6 @@ export const Sidebar = styled.aside`
   grid-area: sidebar;
 `;
 
-export const Navigation = styled.nav`
-  background-color: green;
-  grid-area: navigation;
-`;
-
 export const Main = styled.main`
   background-color: blue;
   grid-area: main;
