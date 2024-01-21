@@ -14,7 +14,7 @@ html {
 body {
   word-break: break-word;
   font-family: "Lato", sans-serif;
-  background-color: #DDD0C8;
+  background-color: ${({theme}) => theme.colors.backgroundColor};
 }
 
 `;
