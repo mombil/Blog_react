@@ -7,7 +7,7 @@ import { battle_royale, fps, home, przygodowe, rpg, symulatory, zrecznosciowe } 
 const Page = () => (
   <Container>
     <Header />
-    <Sidebar>aasd</Sidebar>
+    <Sidebar>aasdsd</Sidebar>
     <Navigation />
     <Routes>
       <Route path={fps} element={<Main/>} />

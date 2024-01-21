@@ -13,4 +13,5 @@ export const Logo = styled.img`
 
 export const Title = styled.h1`
   margin: auto auto;
+  color: ${({ theme }) => theme.colors.primaryColor};
 `;
