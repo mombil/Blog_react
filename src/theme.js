@@ -3,8 +3,11 @@ export const theme = {
       primaryColor: "#BFA181",
       secondaryColor: "#178582",
       backgroundColor: "#0A1828",
+      text: "#DDD",
+      shadow: "#000",
     },
     breakpoints: {
+      smallDevices: "480px",
       mediumDevices: "768px",
       largeDevices: "992px",
     },
