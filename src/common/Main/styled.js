@@ -1,3 +1,4 @@
+import { HashLink } from "react-router-hash-link";
 import styled from "styled-components";
 
 export const StyledMain = styled.main`
@@ -31,6 +32,10 @@ export const Container = styled.div`
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 8px;
   justify-content: center;
+
+  @media (max-width: ${({theme}) => theme.breakpoints.smallDevices}) {
+    grid-template-columns: 1fr;
+  }
 `
 
 export const Article = styled.article`
@@ -57,11 +62,21 @@ export const PosterTitle = styled.h3`
 export const Poster = styled.img`
   border-radius: 5px;
   width: 399px;
-  height: 563px;
+  height: 564px;
+
+  @media (max-width: ${({theme}) => theme.breakpoints.desktop}) {
+    width: 280px;
+    height: 412px;
+  }
+
+  @media (max-width: ${({theme}) => theme.breakpoints.tablet}) {
+    width: 240px;
+    height: 350px;
+  }
 
   @media (max-width: ${({theme}) => theme.breakpoints.largeDevices}) {
-    width: 230px;
-    height: 345px;
+    width: 180px;
+    height: 265px;
   }
 
   @media (max-width: ${({theme}) => theme.breakpoints.mediumDevices}) {
@@ -70,7 +85,56 @@ export const Poster = styled.img`
   }
 
   @media (max-width: ${({theme}) => theme.breakpoints.smallDevices}) {
-    width: 116px;
-    height: 163px;
+    width: 180px;
+    height: 265px;
+  }
+`
+
+export const Sidebar = styled.aside`
+  display: grid;
+  grid-template-column: 1fr;
+  grid-template-rows: auto 1fr;
+  grid-gap: 100px;
+  grid-area: sidebar;
+  padding: 8px;
+  width: 150px;
+  
+  @media (max-width: ${({theme}) => theme.breakpoints.largeDevices}) {
+    width: 100px;
+  }
+`;
+
+export const LinksContainer = styled.div`
+  display: grid;
+  grid-template-column: 1fr;
+  grid-template-rows: auto 1fr;
+  grid-gap: 8px;
+`
+
+export const StyledLink = styled(HashLink)`
+  color: ${({ theme }) => theme.colors.secondaryColor};
+  text-decoration: none;
+  font-size: 16px;
+  &:hover {
+    filter: brightness(130%);
+  }
+  &:active {
+    filter: brightness(160%);
+  }
+
+  @media (max-width: ${({theme}) => theme.breakpoints.largeDevices}) {
+  font-size: 12px;
+  }
+`
+
+export const Link = styled.a`
+  text-align: center;
+`
+
+export const LinkImg = styled.img`
+  width: 100px;
+
+  @media (max-width: ${({theme}) => theme.breakpoints.largeDevices}) {
+    width: 80px;
   }
 `

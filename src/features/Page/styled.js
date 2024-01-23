@@ -11,8 +11,4 @@ export const Container = styled.div`
   height: 100%;
 `;
 
-export const Sidebar = styled.aside`
-  background-color: yellow;
-  grid-area: sidebar;
-`;
 
