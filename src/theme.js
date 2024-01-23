@@ -7,9 +7,11 @@ export const theme = {
       shadow: "#000",
     },
     breakpoints: {
-      smallDevices: "480px",
+      smallDevices: "530px",
       mediumDevices: "768px",
       largeDevices: "992px",
+      tablet: "1090px",
+      desktop: "1240px",
     },
   };
   
