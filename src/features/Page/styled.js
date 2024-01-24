@@ -7,7 +7,8 @@ export const Container = styled.div`
   grid-template-areas:
     "title title"
     "sidebar navigation"
-    "sidebar main";
+    "sidebar main"
+    "footer footer";
   height: 100%;
 `;
 

@@ -5,6 +5,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { battle_royale, fps, przygodowe, rpg, symulatory, zrecznosciowe } from "../routes";
 import Main from "../../common/Main";
 import { categories } from "../../categories";
+import Footer from "../../common/Footer";
 
 
 const Page = () => (
@@ -20,6 +21,7 @@ const Page = () => (
       <Route path={symulatory} element={<Main header={categories.symulatory.title} description={categories.symulatory.description} representatives={categories.symulatory.representatives}/>} />
       <Route path="*" element={<Navigate to={fps}/> } />
     </Routes>
+    <Footer/>
   </Container>
 );
 
