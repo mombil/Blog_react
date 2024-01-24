@@ -4,7 +4,7 @@ import logo from "../../../images/logo.svg";
 const Header = () => (
   <HeaderStyled>
     <Logo src={logo} alt=""></Logo>
-    <Title>BLOG</Title>
+    <Title>GRY</Title>
   </HeaderStyled>
 );
 
