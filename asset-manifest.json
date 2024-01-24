@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Games_react/static/js/main.876b0d36.js",
+    "main.js": "/Games_react/static/js/main.c298b3db.js",
     "static/js/787.c8e2686b.chunk.js": "/Games_react/static/js/787.c8e2686b.chunk.js",
     "static/media/logo.svg": "/Games_react/static/media/logo.69a232f6e838bbf03635f1b1f777c853.svg",
     "static/media/steam.svg": "/Games_react/static/media/steam.c85ef12944368070d67dc4dce3c70140.svg",
@@ -8,10 +8,10 @@
     "static/media/youtube.svg": "/Games_react/static/media/youtube.ef4429fcc54e1f8ef7cd5334d53dd6a8.svg",
     "static/media/close.svg": "/Games_react/static/media/close.1ded1e99216871d2a3aec0714440eb62.svg",
     "static/media/menu.svg": "/Games_react/static/media/menu.0d3c31af19b9c297e9457042ec495ba1.svg",
-    "main.876b0d36.js.map": "/Games_react/static/js/main.876b0d36.js.map",
+    "main.c298b3db.js.map": "/Games_react/static/js/main.c298b3db.js.map",
     "787.c8e2686b.chunk.js.map": "/Games_react/static/js/787.c8e2686b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.876b0d36.js"
+    "static/js/main.c298b3db.js"
   ]
 }
