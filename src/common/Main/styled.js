@@ -19,13 +19,14 @@ export const Header = styled.h2`
 
 export const Description = styled.p`
     white-space:pre-wrap;
+    line-height: 120%;
     color: ${({theme}) => theme.colors.text};
     text-shadow: 1px 1px 2px ${({theme}) => theme.colors.shadow};
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
 
     @media (max-width: ${({theme}) => theme.breakpoints.smallDevices}) {
-      font-size: 12px;
+      font-size: 16px;
     }
 `
 
