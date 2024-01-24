@@ -1,3 +1,58 @@
+# Games
+
+## Description
+
+Tą stronę stworzyłem w ramach projektu do szkoły. Opisuje ona kategorie gier oraz kilku jej przedstawicieli
+I created this website as part of a school project. It describes the game categories and several of their representatives.
+
+## Demo
+
+[Games in react](https://mombil.github.io/Games_react/)
+
+![Demo photo](./demo.png)
+
+## Technologies
+
+- Grid
+- CSS
+- ES6+ feature
+- BEM
+- React
+- Styled components
+- ReactRouter
+- ReactRouter Hash Link
+
+## Materials I use in the project
+
+### Text and Data
+- https://www.neonet.pl/blog/rodzaje-gier.html
+
+### SVG Icons
+- https://www.svgrepo.com/svg/80677/youtube
+- https://www.svgrepo.com/svg/314707/steam
+- https://fonts.google.com/icons?selected=Material+Symbols+Outlined:close:FILL@0;wght@400;GRAD@0;opsz@24
+- https://fonts.google.com/icons?selected=Material+Symbols+Outlined:menu:FILL@0;wght@400;GRAD@0;opsz@24
+
+### Games Posters
+- https://ih1.redbubble.net/image.504315885.7329/flat,750x,075,f-pad,750x1000,f8f8f8.u6.jpg
+- https://m.media-amazon.com/images/I/81VgcTqc7pL.jpg
+- https://image.api.playstation.com/vulcan/img/rnd/202010/2119/W83G1nGF7wGs2J7Cq3LhpwwI.png
+- https://i.ebayimg.com/images/g/MZYAAOSw7Cdfxvju/s-l1200.webp
+- https://m.media-amazon.com/images/I/71MPnj8ZpNL._AC_UF894,1000_QL80_.jpg
+- https://myhotposters.com/cdn/shop/products/mL4593_1024x1024.jpg?v=1596632251
+- https://howlongtobeat.com/games/Euro_Truck_Simulator_2_cover.jpg?width=250
+- https://i.etsystatic.com/19645555/r/il/f9a391/3205787491/il_fullxfull.3205787491_ay6k.jpg
+- https://myhotposters.com/cdn/shop/products/mL4604_1024x1024.jpg?v=1596632286
+- https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7h4j.jpg
+- https://m.media-amazon.com/images/M/MV5BNjE2ZTRmZTAtOTBlNy00NGFiLThlZjctYmNjNWVjMjk0ZWYwXkEyXkFqcGdeQXVyOTU1NzIxMDg@._V1_.jpg
+- https://cdn-products.eneba.com/resized-products/q7i-msiKJw8A73IeLKtYuwpr0ilw62NWSVQIFD0GbB0_350x200_2x-0.jpeg
+- https://upload.wikimedia.org/wikipedia/en/e/e8/MassEffect.jpg
+- https://m.media-amazon.com/images/I/71bN7mqVC+L._AC_UF894,1000_QL80_.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/extras/616x670.jpg?t=1702306332
+- https://image.api.playstation.com/vulcan/ap/rnd/202010/0114/b4Q1XWYaTdJLUvRuALuqr0wP.png
+- https://m.media-amazon.com/images/M/MV5BMDQzMThkMGQtMGZlZi00ZmFiLTk5NzItYWJkYTAzNWUzMThhXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg
+- https://m.media-amazon.com/images/M/MV5BNmNhM2NjMTgtNmIyZC00ZmVjLTk4YWItZmZjNGY2NThiNDhkXkEyXkFqcGdeQXVyODU4MDU1NjU@._V1_FMjpg_UX1000_.jpg
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
