@@ -64,8 +64,8 @@ export const PosterTitle = styled.h3`
 
 export const Poster = styled.img`
   border-radius: 5px;
-  width: 399px;
-  height: 564px;
+  width: 350px;
+  height: 515px;
 
   @media (max-width: ${({theme}) => theme.breakpoints.desktop}) {
     width: 280px;
