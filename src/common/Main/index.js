@@ -1,6 +1,4 @@
-import { Description, StyledMain, Header, Container, Poster, Article, PosterTitle, Sidebar, StyledLink, LinksContainer, LinkImg, Link } from "./styled"
-import youtubeIcon from "../../images/youtube.svg"
-import steamIcon from "../../images/steam.svg"
+import { Description, StyledMain, Header, Container, Poster, Article, PosterTitle, Sidebar, StyledLink, LinksContainer, Link, StyledSteamIcon, StyledYoutubeIcon } from "./styled"
 
 const Main = ({header, description, representatives}) => {
   return (
@@ -12,10 +10,10 @@ const Main = ({header, description, representatives}) => {
         </LinksContainer>
         <LinksContainer>
           <Link href="https://www.youtube.com/gaming" rel="noreferrer" target="_blank">
-            <LinkImg src={youtubeIcon} alt=""/>
+            <StyledYoutubeIcon/>
           </Link>
           <Link href="https://store.steampowered.com/" rel="noreferrer" target="_blank">
-            <LinkImg src={steamIcon} alt=""/>
+            <StyledSteamIcon/>
           </Link>
         </LinksContainer>
       </Sidebar>

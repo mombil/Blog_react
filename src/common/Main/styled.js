@@ -1,5 +1,7 @@
 import { HashLink } from "react-router-hash-link";
 import styled from "styled-components";
+import {ReactComponent as YoutubeIcon} from "../../images/youtube.svg"
+import {ReactComponent as SteamIcon} from "../../images/steam.svg"
 
 export const StyledMain = styled.main`
   grid-area: main;
@@ -131,10 +133,34 @@ export const Link = styled.a`
   text-align: center;
 `
 
-export const LinkImg = styled.img`
+export const StyledYoutubeIcon = styled(YoutubeIcon)`
   width: 100px;
+  height: auto;
+  fill: ${({ theme }) => theme.colors.secondaryColor};
+  &:hover {
+    filter: brightness(130%);
+  }
+  &:active {
+    filter: brightness(160%);
+  }
 
   @media (max-width: ${({theme}) => theme.breakpoints.largeDevices}) {
     width: 80px;
   }
+`
+
+export const StyledSteamIcon = styled(SteamIcon)`
+width: 100px;
+height: auto;
+fill: ${({ theme }) => theme.colors.secondaryColor};
+&:hover {
+  filter: brightness(130%);
+}
+&:active {
+  filter: brightness(160%);
+}
+
+@media (max-width: ${({theme}) => theme.breakpoints.largeDevices}) {
+  width: 80px;
+}
 `
