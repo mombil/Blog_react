@@ -117,7 +117,7 @@ export const LinksContainer = styled.div`
 export const StyledLink = styled(HashLink)`
   color: ${({ theme }) => theme.colors.secondaryColor};
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   &:hover {
     filter: brightness(130%);
   }
