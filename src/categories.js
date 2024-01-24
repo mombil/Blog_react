@@ -104,7 +104,7 @@ export const categories = {
             },
             {
                 title: "Detroit: Become Human",
-                img: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/45572318-b097-446c-9783-2b2ebb97c615/dcj5wvt-df42fd17-0f95-412d-ac08-d085970fc11f.png/v1/fill/w_900,h_1350,q_80,strp/detroit_become_human___movie_poster_by_abst3rgo_dcj5wvt-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM1MCIsInBhdGgiOiJcL2ZcLzQ1NTcyMzE4LWIwOTctNDQ2Yy05NzgzLTJiMmViYjk3YzYxNVwvZGNqNXd2dC1kZjQyZmQxNy0wZjk1LTQxMmQtYWMwOC1kMDg1OTcwZmMxMWYucG5nIiwid2lkdGgiOiI8PTkwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.4pvn_exLalWRpmcBjAYQpN9tENgQ7CQONrznbSBMTak",
+                img: "https://image.api.playstation.com/vulcan/img/rnd/202010/2119/W83G1nGF7wGs2J7Cq3LhpwwI.png",
             },
         ],
     },
