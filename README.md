@@ -2,7 +2,6 @@
 
 ## Description
 
-Tą stronę stworzyłem w ramach projektu do szkoły. Opisuje ona kategorie gier oraz kilku jej przedstawicieli
 I created this website as part of a school project. It describes the game categories and several of their representatives.
 
 ## Demo
