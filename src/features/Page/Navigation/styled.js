@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import {ReactComponent as CloseIcon} from "../../../images/close.svg"
+import {ReactComponent as MenuIcon} from "../../../images/menu.svg"
 
 export const StyledNavigation = styled.nav`
   grid-area: navigation;
@@ -85,4 +87,16 @@ export const CloseButton = styled(Button)`
   position: absolute;
   top: 2rem;
   right: 2rem;
+`
+
+export const StyledCloseIcon = styled(CloseIcon)`
+  fill: ${({ theme }) => theme.colors.secondaryColor};
+  width: 28px;
+  height: 28px;
+`
+
+export const StyledMenuIcon = styled(MenuIcon)`
+  fill: ${({ theme }) => theme.colors.secondaryColor};
+  width: 28px;
+  height: 28px;
 `

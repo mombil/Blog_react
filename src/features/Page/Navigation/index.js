@@ -1,8 +1,6 @@
 import { useRef } from "react";
-import { CloseButton, MenuListItem, Button, ListItem, StyledNavLink, StyledNavigation, UnorderedList } from "./styled";
+import { CloseButton, MenuListItem, Button, ListItem, StyledNavLink, StyledNavigation, UnorderedList, StyledCloseIcon, StyledMenuIcon } from "./styled";
 import { battle_royale, fps, przygodowe, rpg, symulatory, zrecznosciowe } from "../../routes";
-import close from "../../../images/close.svg"
-import menu from "../../../images/menu.svg"
 
 const Navigation = () => {
   const navRef = useRef()
@@ -34,12 +32,12 @@ const Navigation = () => {
         </ListItem>
         <MenuListItem>
           <CloseButton onClick={showNavBar}>
-            <img src={close} alt=""/>
+            <StyledCloseIcon/>
           </CloseButton>
         </MenuListItem>
       </UnorderedList>
       <Button onClick={showNavBar}>
-        <img src={menu} alt=""/>
+        <StyledMenuIcon/>
       </Button>
     </StyledNavigation>
 )};
