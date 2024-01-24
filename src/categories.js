@@ -100,7 +100,7 @@ export const categories = {
             },
             {
                 title: "Machinarium",
-                img: "https://pics.filmaffinity.com/Machinarium-310919810-large.jpg",
+                img: "https://m.media-amazon.com/images/I/81VgcTqc7pL.jpg",
             },
             {
                 title: "Detroit: Become Human",
