@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import {ReactComponent as CloseIcon} from "../../../images/close.svg"
-import {ReactComponent as MenuIcon} from "../../../images/menu.svg"
+import {ReactComponent as CloseIcon} from "../../images/close.svg"
+import {ReactComponent as MenuIcon} from "../../images/menu.svg"
 
 export const StyledNavigation = styled.nav`
   grid-area: navigation;

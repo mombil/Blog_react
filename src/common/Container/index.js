@@ -11,5 +11,3 @@ export const Container = styled.div`
     "footer footer";
   height: 100%;
 `;
-
-

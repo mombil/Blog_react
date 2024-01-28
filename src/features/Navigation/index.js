@@ -1,15 +1,32 @@
 import { useRef } from "react";
-import { CloseButton, MenuListItem, Button, ListItem, StyledNavLink, StyledNavigation, UnorderedList, StyledCloseIcon, StyledMenuIcon } from "./styled";
-import { battle_royale, fps, przygodowe, rpg, symulatory, zrecznosciowe } from "../../routes";
+import {
+  CloseButton,
+  MenuListItem,
+  Button,
+  ListItem,
+  StyledNavLink,
+  StyledNavigation,
+  UnorderedList,
+  StyledCloseIcon,
+  StyledMenuIcon,
+} from "./styled";
+import {
+  battle_royale,
+  fps,
+  przygodowe,
+  rpg,
+  symulatory,
+  zrecznosciowe,
+} from "../Routes";
 
 const Navigation = () => {
-  const navRef = useRef()
+  const navRef = useRef();
 
   const showNavBar = () => {
-    navRef.current.classList.toggle("responsive")
-  }
+    navRef.current.classList.toggle("responsive");
+  };
 
-  return(
+  return (
     <StyledNavigation>
       <UnorderedList ref={navRef}>
         <ListItem>
@@ -32,14 +49,15 @@ const Navigation = () => {
         </ListItem>
         <MenuListItem>
           <CloseButton onClick={showNavBar}>
-            <StyledCloseIcon/>
+            <StyledCloseIcon />
           </CloseButton>
         </MenuListItem>
       </UnorderedList>
       <Button onClick={showNavBar}>
-        <StyledMenuIcon/>
+        <StyledMenuIcon />
       </Button>
     </StyledNavigation>
-)};
+  );
+};
 
 export default Navigation;
