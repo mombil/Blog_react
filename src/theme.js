@@ -11,7 +11,7 @@ export const theme = {
       mediumDevices: "768px",
       largeDevices: "992px",
       tablet: "1090px",
-      desktop: "1240px",
+      desktop: "1280px",
     },
   };
   
