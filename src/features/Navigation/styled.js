@@ -1,25 +1,25 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import {ReactComponent as CloseIcon} from "../../images/close.svg"
-import {ReactComponent as MenuIcon} from "../../images/menu.svg"
+import { ReactComponent as CloseIcon } from "../../images/close.svg";
+import { ReactComponent as MenuIcon } from "../../images/menu.svg";
 
 export const StyledNavigation = styled.nav`
   grid-area: navigation;
-  @media (max-width: ${({theme}) => theme.breakpoints.largeDevices}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.largeDevices}) {
     display: flex;
     justify-content: end;
   }
 `;
 
 export const UnorderedList = styled.ul.attrs(props => ({
-  className: props.className
+  className: props.className,
 }))`
   display: flex;
   justify-content: space-evenly;
   margin: 0;
   padding: 0;
 
-  @media only screen and (max-width: ${({theme}) => theme.breakpoints.largeDevices}) {
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.largeDevices}) {
     position: fixed;
     top: 0;
     left: 0;
@@ -31,7 +31,7 @@ export const UnorderedList = styled.ul.attrs(props => ({
     gap: 8px;
     transition: 1s;
     transform: translateY(-100vh);
-    background-color: ${({theme}) => theme.colors.backgroundColor};
+    background-color: ${({ theme }) => theme.colors.backgroundColor};
 
     &.responsive {
       transform: none;
@@ -46,10 +46,10 @@ export const ListItem = styled.li`
 `;
 
 export const MenuListItem = styled(ListItem)`
-@media only screen and (min-width: ${({theme}) => theme.breakpoints.largeDevices}) {
-  display: none;
-}
-`
+  @media only screen and (min-width: ${({ theme }) => theme.breakpoints.largeDevices}) {
+    display: none;
+  }
+`;
 
 export const StyledNavLink = styled(NavLink)`
   color: ${({ theme }) => theme.colors.secondaryColor};
@@ -65,7 +65,7 @@ export const StyledNavLink = styled(NavLink)`
   &:active {
     filter: brightness(160%);
   }
-`
+`;
 
 export const Button = styled.button`
   color: ${({ theme }) => theme.colors.secondaryColor};
@@ -77,26 +77,26 @@ export const Button = styled.button`
   outline: none;
   display: none;
 
-  @media only screen and (max-width: ${({theme}) => theme.breakpoints.largeDevices}) {
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.largeDevices}) {
     display: block;
     opacity: 1;
   }
-`
+`;
 
 export const CloseButton = styled(Button)`
   position: absolute;
   top: 2rem;
   right: 2rem;
-`
+`;
 
 export const StyledCloseIcon = styled(CloseIcon)`
   fill: ${({ theme }) => theme.colors.secondaryColor};
   width: 28px;
   height: 28px;
-`
+`;
 
 export const StyledMenuIcon = styled(MenuIcon)`
   fill: ${({ theme }) => theme.colors.secondaryColor};
   width: 28px;
   height: 28px;
-`
+`;

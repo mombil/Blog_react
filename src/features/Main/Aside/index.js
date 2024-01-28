@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
-import { LinksContainer, Sidebar, StyledLink, StyledSteamIcon, StyledYoutubeIcon } from "./styled";
+import {
+  LinksContainer,
+  Sidebar,
+  StyledLink,
+  StyledSteamIcon,
+  StyledYoutubeIcon,
+} from "./styled";
 
-const Aside = ({header}) => (
+const Aside = ({ header }) => (
   <Sidebar>
     <LinksContainer>
       <StyledLink to={"#" + header} smooth>
@@ -30,4 +36,4 @@ const Aside = ({header}) => (
   </Sidebar>
 );
 
-export default Aside
+export default Aside;

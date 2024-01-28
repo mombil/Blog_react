@@ -76,4 +76,4 @@ const RoutesContainer = () => (
   </Routes>
 );
 
-export default RoutesContainer
+export default RoutesContainer;
